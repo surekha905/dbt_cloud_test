@@ -1,0 +1,14 @@
+default:
+  target: dev
+
+  outputs:
+    dev:
+      type: snowflake
+      account: YYSBFXR-AU16429
+      user: TEST_USER
+      password: Surihayutanu@2614
+      role: ACCOUNTADMIN
+      warehouse: test_wh
+      database: dbt_cloud
+      schema: cnf
+      threads: 4

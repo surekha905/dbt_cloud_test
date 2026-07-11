@@ -1,0 +1,11 @@
+version: 2
+sources:
+ - name: src
+   database: raw
+   schema: src
+
+   tables:
+     - name: orders_raw
+     - name: orders_append_raw
+  
+     
