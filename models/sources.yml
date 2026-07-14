@@ -7,5 +7,6 @@ sources:
    tables:
      - name: orders_raw
      - name: orders_append_raw
+     - name: manufacturing_production
   
      
