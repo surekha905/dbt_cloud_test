@@ -40,3 +40,7 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+
+vars:
+  plant: "Plant_A"
+  production_date: "2025-01-01"
