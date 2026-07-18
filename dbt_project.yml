@@ -44,3 +44,4 @@ models:
 vars:
   plant: "Plant_A"
   production_date: "2025-01-01"
+

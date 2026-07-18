@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: tests_product
+
+    columns:
+      - name: product_id
+        tests:
+          - unique
+          - not_null
+
+      - name: plant
+        tests:
+          - not_null
+
+      - name: status
+        tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Completed
+                  - In_progress
+                  - Pending
