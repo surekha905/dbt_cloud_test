@@ -10,5 +10,6 @@ sources:
      - name: manufacturing_production
      - name: manufacturing_orders
      - name: machine_master
+     - name: machine_master_check
   
      
